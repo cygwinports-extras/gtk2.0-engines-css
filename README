@@ -1,0 +1,93 @@
+gtk2-engines-css
+------------------------------------------
+GTK+ CSS-based theme engine
+
+Runtime requirements:
+  cygwin-1.5.25-15
+  glib2-2.16.6-1
+  gtk2-x11-2.12.12-1
+  libcairo2-1.6.4-2
+  libcroco06-0.6.1-1
+  librsvg2-2.22.2-1
+  libsoup24-2.4.1-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-1
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  gnome-common-2.20.0-2
+  gtk-doc-1.10-1
+  libtool-2.2.6a-1
+  make-3.81-1
+  pkg-config-0.23a-2
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.gnome.org/
+
+Canonical download:
+  ftp://ftp.gnome.org/pub/GNOME/sources/gtk-css-engine/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gtk2-engines-css-0.2.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gtk2-engines-css-0.2.0-X.cygport all
+
+This will create:
+  /usr/src/gtk2-engines-css-0.2.0-X-src.tar.bz2
+  /usr/src/gtk2-engines-css-0.2.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/gtk-2.0/2.10.0/engines/cygcss.dll
+  /usr/lib/gtk-2.0/2.10.0/engines/libcss.la
+  /usr/share/doc/gtk2-engines-css-0.2.0/AUTHORS
+  /usr/share/doc/gtk2-engines-css-0.2.0/COPYING
+  /usr/share/doc/gtk2-engines-css-0.2.0/ChangeLog
+  /usr/share/doc/gtk2-engines-css-0.2.0/INSTALL
+  /usr/share/doc/gtk2-engines-css-0.2.0/MAINTAINERS
+  /usr/share/doc/gtk2-engines-css-0.2.0/NEWS
+  /usr/share/doc/gtk2-engines-css-0.2.0/README
+  /usr/share/doc/gtk2-engines-css-0.2.0/TODO
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/arrow-down.svg
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/arrow-left.svg
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/arrow-right.svg
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/arrow-up.svg
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/button-back.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/check-inactive-selected.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/check-selected.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/gtkrc
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/progressbar.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/radiobutton-inactive-selected.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/radiobutton-selected.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/resizegrip.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/scale-slider-vertical.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/scale-slider.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/slider-background-horizontal.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/slider-background.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/styles.css
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/tab-back-down.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/tab-back-left.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/tab-back-right.png
+  /usr/share/themes/Gilouche-CSS/gtk-2.0/tab-back.png
+
+------------------
+
+Port Notes:
+
+----- version 0.2.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

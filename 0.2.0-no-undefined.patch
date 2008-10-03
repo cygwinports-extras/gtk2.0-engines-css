@@ -1,0 +1,11 @@
+--- origsrc/gtk-css-engine-0.2.0/libccss/ccss/Makefile.am	2008-09-29 11:01:07.000000000 -0500
++++ src/gtk-css-engine-0.2.0/libccss/ccss/Makefile.am	2008-10-02 20:51:14.194993900 -0500
+@@ -36,6 +36,8 @@
+ noinst_LTLIBRARIES = libccss-1.la
+ endif
+ 
++libccss_1_la_LIBADD = $(CCSS_LIBS)
++
+ libccss_1_la_SOURCES = \
+ 	ccss-background.c \
+ 	ccss-background.h \

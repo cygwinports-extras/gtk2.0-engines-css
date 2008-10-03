@@ -1,0 +1,7 @@
+ORIG_PN="gtk-css-engine"
+inherit gnome2
+
+PATCH_URI="0.2.0-gtk-doc.patch
+           0.2.0-no-undefined.patch"
+
+DIFF_EXCLUDES="ccss-features.h"
